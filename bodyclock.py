@@ -38,14 +38,14 @@ repeatcount = args.repeat
 c = 0
 total_diff_msec = 0
 
-pp('Are you ready? Press enter to start...')
+pp('Are you ready? Press Enter to start...')
 pause()
 
 while True:
     if c>=repeatcount:
         break
 
-    pp('Try[{0}/{1}] Press enter after {2}-secs passed.'.format(
+    pp('Try[{0}/{1}] Press Enter after {2}-secs passed.'.format(
         c+1, repeatcount, span))
     startdt = nowdt()
     pause()
