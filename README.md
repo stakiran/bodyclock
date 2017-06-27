@@ -1,5 +1,5 @@
 # bodyclock
-`bodyclock` go best with your body-clock playing, training and conditioning.
+A lightweight tool for playing, training and conditioning your body-clock.
 
 ## Demo
 
